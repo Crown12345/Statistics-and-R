@@ -68,8 +68,8 @@ Script to determine if the PSI for each manufacturing lot is statistically diffe
 
 From this result we notice that the mean of the third lot has decreased. So, it will be a necessary to check the process of production to fit the client requirements.  
 
+## Study Design: MechaCar vs Competition
 
-Study Design: MechaCar vs Competition
 
 Metrics
 
