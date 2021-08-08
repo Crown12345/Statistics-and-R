@@ -1,14 +1,14 @@
 # Statistics-and-R
 A few weeks after starting his new role, Jeremy is approached by upper management about a special project. AutosRUs’ newest prototype, the MechaCar, is suffering from production troubles that are blocking the manufacturing team’s progress. AutosRUs’ upper management has called on Jeremy and the data analytics team to review the production data for insights that may help the manufacturing team.
 In this challenge, you’ll help Jeremy and the data analytics team do the following:
-•	Perform multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes
-•	Collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots
-•	Run t-tests to determine if the manufacturing lots are statistically different from the mean population
-•	Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. For each statistical analysis, you’ll write a summary interpretation of the findings.
+-	Perform multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes
+-	Collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots
+-	Run t-tests to determine if the manufacturing lots are statistically different from the mean population
+-	Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. For each statistical analysis, you’ll write a summary interpretation of the findings.
 
 
 ## Linear Regression to Predict MPG
-•	Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+-	Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 After getting the summary output of the data. We can notice that the variables vehicle length, ground clearance and the intercept present a small value of Pr(>|t|).
 Pr(>|t|) [Intercept] = 5,08e-08
 Pr(>|t|) [vehicle length] = 2,60e-12
@@ -19,7 +19,7 @@ According to our results, vehicle length and ground clearance (as well as interc
 
 
 
-•	Is the slope of the linear model considered to be zero? Why or why not?
+-	Is the slope of the linear model considered to be zero? Why or why not?
 To answer this question, linear regression tests the following hypotheses:
 H0 : The slope of the linear model is zero, or m = 0
 Ha : The slope of the linear model is not zero, or m ≠ 0.
@@ -36,19 +36,19 @@ Based on the table below, we can assume that the model is representing moderatel
 
 
 ## Summary Statistics on Suspension Coils
-•	Based on the table total_summary we can clearly see that  the variance = 62.29 is in the tolerance of the design specifications for the MechaCar suspension coils which is 100.
+-	Based on the table total_summary we can clearly see that  the variance = 62.29 is in the tolerance of the design specifications for the MechaCar suspension coils which is 100.
 
 ![image](https://user-images.githubusercontent.com/82984956/128616506-57ec85fa-9d12-4f77-a475-e665b2a22d7e.png)
 
-•	But based on the lot_summary table we can notice that the first and the second lot fit the requirement. But the third one is out of tolerance with a variance of 170.
+-	But based on the lot_summary table we can notice that the first and the second lot fit the requirement. But the third one is out of tolerance with a variance of 170.
 
 ![image](https://user-images.githubusercontent.com/82984956/128616509-53684f2c-1eb4-46d5-9072-aef44629e2b0.png)
 
 
 Deliverable 3: T-Tests on Suspension Coils 
 RScript using the t.test() function to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch.
-•	H0 : There is no statistical difference between the observed sample mean and its presumed population mean.
-•	H1 : There is a statistical difference between the observed sample mean and its presumed population mean.
+-	H0 : There is no statistical difference between the observed sample mean and its presumed population mean.
+-	H1 : There is a statistical difference between the observed sample mean and its presumed population mean.
 
 ![image](https://user-images.githubusercontent.com/82984956/128616511-96945564-a785-4c56-a0da-cfa60367d6df.png)
 
@@ -87,8 +87,8 @@ Hypothesis: Null and Alternative
 
 Then we can decide which factors are the most important for MechaCar’s type.
 After that we can proceed to test if the car’s price is well fixed regarding the performance of the car or not.
-•	Null Hypothesis (Ho): The price of MechaCar is reasonable regarding on its performance comparing to similar product of its genre.
-•	Alternative Hypothesis (H1): MechaCar’s price is not reasonable regarding on its performance comparing to similar product of its genre.
+-	Null Hypothesis (Ho): The price of MechaCar is reasonable regarding on its performance comparing to similar product of its genre.
+-	Alternative Hypothesis (H1): MechaCar’s price is not reasonable regarding on its performance comparing to similar product of its genre.
 
 Statistical Tests
 
