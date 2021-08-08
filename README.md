@@ -74,14 +74,14 @@ From this result we notice that the mean of the third lot has decreased. So, it 
 Metrics
 
 First of all, we should proceed to collect the data history for all manufacturers. The data should cover a reasonable period to provide a correct result.
-•	Selling price.
-•	Type (City or highway)
-•	Engine (Gasoline, Electric)
-•	Speed.
-•	city or highway fuel efficiency.
-•	Horse power.
-•	maintenance cost
-•	Safety Rating
+-	Selling price.
+-	Type (City or highway)
+-	Engine (Gasoline, Electric)
+-	Speed.
+-	city or highway fuel efficiency.
+-	Horse power.
+-	maintenance cost
+- Safety Rating
 
 Hypothesis: Null and Alternative
 
